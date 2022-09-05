@@ -15,11 +15,11 @@ public class Con1 {
 			b = s.nextInt();
 			if (a == b)
 				System.out.println(a + " = " + b);
-			if (a < b)
+			else if (a < b)
 
 				System.out.println(a + "is les then " + b);
 
-			if (a > b)
+			else if (a > b)
 				System.out.println(a + " is greather then" + b);
 		}
 
